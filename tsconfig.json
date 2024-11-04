@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/Component/CanvasTemplate/MyEditor.ts", "src/Component/CanvasTemplate/MockupList.ts", "src/Component/CanvasTemplate/MockupItem.ts", "src/Component/CanvasTemplate/index.js", "src/Component/CanvasTemplate/DesignCanvasList.ts", "src/Component/CanvasTemplate/models.ts", "src/Component/CanvasTemplate/db.js"],
+  "exclude": ["node_modules"]
+}

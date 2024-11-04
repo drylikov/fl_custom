@@ -1,0 +1,100 @@
+.item_parent{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.specs_name{
+    flex-grow: 4;
+    width: 20%;
+}
+.animation{
+    padding: 9px 12px;
+    display: flex;
+    text-align: center;
+    flex-grow: 8;
+    background-color: rgb(244, 239, 244);
+    border-radius: 38px;
+    padding: 6px 7px;
+    width: 80%;
+}
+.switch_animation{
+    position: relative;
+    min-height: 16px;
+    min-width: 98px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.text{
+    height: 58px;
+    width: 50%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: transparent;
+    z-index: 1;
+    white-space: break-spaces;
+    color: black;
+    font-weight: 700;
+}
+.active{
+    border: 1px solid black;
+}
+.width_resize{
+    display: flex;
+    gap: 40px;
+}
+.width_resize_left{
+    margin-left: 10px;
+    width: 40%;
+}
+.width_resize_right{
+    width: 60%;
+}
+.quantity_parent{
+    display: flex;
+    align-items: center;
+}
+.quantity_rounded{
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 20px;
+}
+.text_count{
+    width: 20%;
+    display: flex;
+    align-self: center;
+}
+.quantity_rounded .inactive{
+    /* width: 62px;
+    height: 34px; */
+    background: rgb(215, 226, 255);
+    border: 2px solid transparent;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.quantity_rounded .active{
+    /* width: 62px;
+    height: 34px; */
+    background: rgb(215, 226, 255);
+    border-radius: 16px;
+    text-align: center;
+    color: rgb(0, 27, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 27, 97);
+    transition: border-top-color 0.35s linear 0s, border-right-color 0.35s linear 0.1s, border-bottom-color 0.35s linear 0.2s, border-left-color 0.35s linear 0.3s;
+    cursor: pointer;
+}
